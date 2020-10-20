@@ -1,8 +1,8 @@
-name: sample-dockerfile
+name: snodockerfile
 services:
 - dockerfile_path: Dockerfile
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-dockerfile
-  name: sample-dockerfile
+    repo: snormore/sample-dockerfile
+  name: web
